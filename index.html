@@ -4,12 +4,13 @@
         <meta charset="UTF-8" />
         <link rel="icon" type="image/svg+xml" href="/vite.svg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script type="module" defer src="/src/main.ts"></script>
+        <link rel="stylesheet" href="/src/style.css" />
         <title>Vite + TS</title>
     </head>
     <body>
         <header>
-            <nav>
+            <nav class="md:flex md:justify-around items-center p-4">
+                <span>Vite + TS</span>
                 <ul class="flex gap-4">
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About</a></li>
@@ -18,5 +19,9 @@
                 </ul>
             </nav>
         </header>
+
+        <footer class="flex justify-center items-center p-4">
+            <span>Footer</span>
+        </footer>
     </body>
 </html>
