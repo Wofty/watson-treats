@@ -2,28 +2,209 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="icon" type="image/svg+xml" href="/logo_dark.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="/src/style.css" />
-        <title>Vite + TS</title>
+        <script src="src/main.ts" type="module" defer></script>
+        <link rel="stylesheet" href="src/style.css" />
+        <title>Home - Watson Treats</title>
     </head>
-    <body>
-        <header>
-            <nav class="md:flex md:justify-around items-center p-4 text-center">
-                <h1 class="text-2xl font-bold">Vite + TS</h1>
-                <ul class="flex gap-4">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/page3">Page3</a></li>
-                    <li><a href="/page2">Page2</a></li>
+    <body class="dark:bg-gray-900">
+        <header class="dark:bg-gray-300 border-4">
+            <nav
+                class="items-center text-center pb-10 md:pb-0 md:flex md:justify-around dark:text-white"
+            >
+                <div class="flex justify-center items-center gap-4">
+                    <img
+                        src="/logo_light.png"
+                        alt="Vite Logo"
+                        width="100"
+                        height="100"
+                        class="block dark:hidden"
+                    />
+                    <img
+                        src="/logo_dark.png"
+                        alt="Vite Logo"
+                        width="100"
+                        height="100"
+                        class="hidden dark:block"
+                    />
+                </div>
+                <ul class="flex justify-center dark:text-white">
+                    <li
+                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-3 dark:text-secondary md:px-6 active"
+                    >
+                        <a href="/" class="">Home</a>
+                    </li>
+                    <li
+                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-3 dark:text-secondary md:px-6"
+                    >
+                        <a href="/about" class="">About</a>
+                    </li>
+                    <li
+                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-3 dark:text-secondary md:px-6"
+                    >
+                        <a href="/catering">Catering</a>
+                    </li>
+                    <li
+                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-3 dark:text-secondary md:px-6"
+                    >
+                        <a href="/cakes">Cakes</a>
+                    </li>
+                    <li
+                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-3 dark:text-secondary md:px-6"
+                    >
+                        <a href="/teas">Teas</a>
+                    </li>
                 </ul>
             </nav>
         </header>
-        <div>
-            <h2 class="text-black dark:text-white">text test</h2>
-        </div>
-        <footer class="flex justify-center items-center p-4">
-            <span>Footer</span>
+        <main>
+            <section
+                id="home-hero"
+                class="flex justify-center items-center h-screen bg-hero-about bg-cover bg-no-repeat bg-center"
+            >
+                <div class="flex flex-col justify-center items-center gap-4">
+                    <div
+                        class="flex flex-col justify-center items-center text-black dark:text-white bg-white dark:bg-regent-gray bg-opacity-50 dark:bg-opacity-50 p-4 rounded-lg shadow-lg"
+                    >
+                        <h1 class="text-4xl font-bold text-center">
+                            Welcome to Watson Treats
+                        </h1>
+                        <p class="text-center">
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Quisquam, voluptatum.
+                        </p>
+                        <button
+                            class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-4"
+                        >
+                            Button
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <section id="home-section-1"></section>
+        </main>
+
+        <footer class="flex flex-col justify-center items-center p-4 pb-20">
+            <div
+                class="flex flex-col justify-center items-center text-center dark:text-white gap-4 px-10 py-10 md:flex-row md:justify-around md:gap-10 md:px-20 md:py-20"
+            >
+                <div
+                    class="flex flex-col justify-center items-center gap-2 -[]"
+                >
+                    <div class="flex items-center text-2xl font-bold h-[8rem]">
+                        <span
+                            ><img
+                                src="/images/footer/footer-treats.png"
+                                width="150"
+                                height="150"
+                                alt="Watson Treats"
+                        /></span>
+                        <h6>Watson Treats</h6>
+                    </div>
+                    <p>
+                        The day for a three hour tour a three hour tour then one
+                        day he was shooting at some food and up through the
+                        ground oil.
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-2">
+                    <div class="flex items-center text-2xl font-bold h-[8rem]">
+                        <span
+                            ><img
+                                src="/images/footer/footer-teas.png"
+                                width="150"
+                                height="150"
+                                alt=""
+                        /></span>
+                        <h6>Teas</h6>
+                    </div>
+                    <p>
+                        The day for a three hour tour a three hour tour then one
+                        day he was shooting at some food and up through the
+                        ground oil.
+                    </p>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-2">
+                    <div class="flex items-center text-2xl font-bold h-[8rem]">
+                        <span class=""
+                            ><img
+                                src="/images/footer/footer-catering.png"
+                                width="150"
+                                height="150"
+                                alt=""
+                        /></span>
+                        <h6>Catering</h6>
+                    </div>
+                    <p>
+                        The day for a three hour tour a three hour tour then one
+                        day he was shooting at some food and up through the
+                        ground oil.
+                    </p>
+                </div>
+            </div>
+            <div
+                id="footer-contact"
+                class="flex flex-col justify-center items-center text-center dark:text-white gap-4 px-10 py-10 md:flex-row md:justify-around md:gap-10 md:px-10 md:py-10"
+            >
+                <div
+                    class="flex flex-col justify-between items-center gap-10 md:flex-row"
+                >
+                    <div class="h-[10]">
+                        <h6 class="text-2xl font-bold">Hours</h6>
+                        <p class="text-center">Monday - Friday: 9am - 5pm</p>
+                        <p class="text-center">Saturday: 10am - 2pm</p>
+                        <p class="text-center">Sunday: Closed</p>
+                    </div>
+                    <div class="h-[10]">
+                        <h6 class="text-2xl font-bold">Contact Us</h6>
+                        <p class="text-center">
+                            1234 Main Street, Anywhere, ST 12345
+                        </p>
+                        <p class="text-center">Phone: 123-456-7890</p>
+                        <p class="text-center">
+                            Email:contact@watson-treats.co.uk
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div id="copyrights">
+                <p class="text-center dark:text-white">
+                    &copy; 2024 Sorin M. Staffordshire University.
+                </p>
+            </div>
+
+            <button id="themeToggleButton" class="fixed bottom-6 left-6">
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    strokeWidth="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 dark:hidden block"
+                >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z"
+                    />
+                </svg>
+
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="w-6 h-6 hidden dark:block dark:text-white"
+                >
+                    <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"
+                    />
+                </svg>
+            </button>
         </footer>
     </body>
 </html>

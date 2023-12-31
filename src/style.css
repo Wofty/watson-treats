@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+    @apply bg-menu-bg-hover bg-cover bg-center bg-no-repeat text-white;
+}
