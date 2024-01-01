@@ -29,7 +29,7 @@ export default {
         'menu-bg-hover': "url('shapes/menu-stroke.png')",
         'home-hero-bg': "url('images/home/hero-bg.webp')",
         'home-sec1-bg': "url('images/home/home-bg-s1-light.png')",
-        'home-sec3-bg': "url('images/home/home-bg-s3.png')",
+        'home-sec3-bg': "url('images/home/bg-home.png')",
 
       },
       screens: {
