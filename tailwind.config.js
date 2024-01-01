@@ -26,7 +26,19 @@ export default {
       },
       backgroundImage: {
         'hero-about': "url('images/about/hero-about-test.jpg')",
-        'menu-bg-hover': "url('shapes/menu-stroke.png')"
+        'menu-bg-hover': "url('shapes/menu-stroke.png')",
+        'home-hero-bg': "url('images/home/hero-bg.webp')",
+        'home-sec1-bg': "url('images/home/home-bg-s1-light.png')",
+        'home-sec3-bg': "url('images/home/home-bg-s3.png')",
+
+      },
+      screens: {
+        'xs': '320px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1200px',
+        '2xl': '1536px',
       },
 
 

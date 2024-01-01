@@ -5,3 +5,7 @@
 .active {
     @apply bg-menu-bg-hover bg-cover bg-center bg-no-repeat text-white;
 }
+
+.home-hero_custom-bg {
+    background-position: 60% center;
+}
