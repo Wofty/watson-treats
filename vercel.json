@@ -2,9 +2,23 @@
     "rewrites": [
         {
             "source": "/(.*)",
-            "destination": "/index.html",
-            "source": "/(.about)",
+            "destination": "/index.html"
+        },
+        {
+            "source": "/about",
             "destination": "/about.html"
+        },
+        {
+            "source": "/catering",
+            "destination": "/catering.html"
+        },
+        {
+            "source": "/cakes",
+            "destination": "/cakes.html"
+        },
+        {
+            "source": "/teas",
+            "destination": "/teas.html"
         }
     ]
 }
