@@ -8,26 +8,31 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#102756',
+        'primary': '#f3c7b4',
         'secondary': '#dc6434',
         'ecru-white': '#fbfbf4',
-        'gray-chateau': '#9da5b2',
+        'gray-chateau': '#2a2f3a',
         'apricot': '#e79979',
         'cashmere': '#e4b6a4',
-        'regent-gray': '#7c8c9c',
+        'regent-gray': '#505a66',
         'ghost': '#cbccd1',
-        'mandys-pink': '#f3c7b4'
+        'mandys-pink': '#f3c7b4',
+
       },
       fontFamily: {
         'sans': ['Roboto', 'sans-serif'],
         'serif': ['Merriweather', 'serif'],
         'cursive': ['Playball', 'cursive'],
+        'sevillan': ['Sevillana', 'cursive'],
 
       },
       backgroundImage: {
-        // hero bg
-        'hero-about': "url('/images/about/hero-about-test.jpg')",
+        //menu hover
+
         'menu-bg-hover': "url('/shapes/menu-stroke.png')",
+
+        'hero-about': "url('/images/about/hero-about-test.jpg')",
+
         'home-hero-bg': "url('/images/home/hero-bg.webp')",
         //section bg
         'section-bg-1': "url('/images/bg/section_bg-1.png')",

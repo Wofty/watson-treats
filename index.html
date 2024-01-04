@@ -4,65 +4,60 @@
         <meta charset="UTF-8" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <script src="src/main.ts" type="module" defer></script>
         <link rel="stylesheet" href="src/style.css" />
         <title>Home - Watson Treats</title>
     </head>
-    <!-- FIXME: change the place of dark theme button to the header -->
-    <!-- TODO: add section 01 -->
-    <!-- TODO: add section 02 -->
-    <!-- TODO: add section 03 -->
-    <body class="dark:bg-black">
+
+    <!-- ! Done -->
+    <body class="dark:bg-black bg-ecru-white">
         <header class="">
             <nav
-                class="items-center text-center pb-10 md:pb-0 md:flex md:justify-around dark:text-white"
+                class="items-center text-center pb-10 md:pb-0 md:flex md:justify-around"
             >
                 <div class="flex justify-center items-center gap-4">
                     <img
-                        src="/logo_light.png"
-                        alt="Vite Logo"
+                        src="/images/logo/logo_light.png"
+                        alt="Website Logo: Watson Treats light theme"
                         width="70"
                         height="100"
-                        class="block dark:hidden"
+                        class="block dark:hidden h-[120px] w-[150px]"
                     />
                     <img
-                        src="/logo_dark.png"
-                        alt="Vite Logo"
+                        src="/images/logo/logo_dark.png"
+                        alt="Website Logo: Watson Treats dark theme"
                         width="70"
                         height="100"
-                        class="hidden dark:block"
+                        class="hidden dark:block h-[120px] w-[150px]"
                     />
                 </div>
-                <ul class="flex justify-center dark:text-white">
-                    <li
-                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-2 dark:text-gray-chateau md:px-6 active"
-                    >
+                <ul
+                    class="flex justify-center text-xl font-semibold gap-4 md:gap-10 px-2 md:px-0"
+                >
+                    <li class="menu-item menu-item-active">
                         <a href="/" class="">Home</a>
                     </li>
-                    <li
-                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-2 dark:text-gray-chateau md:px-6"
-                    >
+                    <li class="menu-item">
                         <a href="/about" class="">About</a>
                     </li>
-                    <li
-                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-2 dark:text-gray-chateau md:px-6"
-                    >
+                    <li class="menu-item">
                         <a href="/catering">Catering</a>
                     </li>
-                    <li
-                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-2 dark:text-gray-chateau md:px-6"
-                    >
+                    <li class="menu-item">
                         <a href="/cakes">Cakes</a>
                     </li>
-                    <li
-                        class="hover:bg-menu-bg-hover hover:bg-cover hover:bg-center hover:text-white font-bold px-2 dark:text-gray-chateau md:px-6"
-                    >
+                    <li class="menu-item">
                         <a href="/teas">Teas</a>
                     </li>
                 </ul>
             </nav>
         </header>
+        <!-- ! Done -->
+
         <!-- Home Main -->
+
         <main>
             <!-- Home Hero -->
             <section
@@ -76,7 +71,7 @@
                         class="flex flex-col justify-center items-center gap-6 text-white"
                     >
                         <h1
-                            class="text-5xl text-center md:text-6xl lg:text-7xl"
+                            class="text-5xl text-center md:text-6xl lg:text-7xl font-sevillan text-secondary"
                         >
                             Watson Treats
                         </h1>
@@ -86,7 +81,9 @@
                         <button
                             class="bg-secondary hover:bg-apricot text-white font-bold py-4 px-10 rounded-lg mt-4"
                         >
-                            Call to action
+                            <!-- TODO: add call to action here  -->
+
+                            <a href="">learn more..</a>
                         </button>
                     </div>
                 </div>
@@ -102,9 +99,8 @@
                     <h2
                         class="text-center text-4xl font-cursive text-secondary"
                     >
-                        Our Story
+                        What Sets Us Apart
                     </h2>
-                    <h3>About</h3>
                     <div>
                         <img
                             class=""
@@ -114,9 +110,9 @@
                             height="40"
                         />
                     </div>
-                    <p class="text-center">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, voluptatum.
+                    <p class="text-center text-cursive italic">
+                        At Watson Treats, we believe in the power of tradition
+                        and innovation.
                     </p>
                 </div>
                 <div class="grid gap-6 md:grid-flow-col w-[70%]">
@@ -145,8 +141,11 @@
                             A family business
                         </h4>
                         <p class="italic">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
+                            Our cakes are a fusion of time-tested recipes and
+                            creative flair, ensuring each slice is a unique
+                            experience. We cater to every palate, from classic
+                            Victoria sponges to avant-garde flavour
+                            combinations.
                         </p>
                     </div>
                     <div
@@ -174,8 +173,13 @@
                             A family business
                         </h4>
                         <p class="italic">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
+                            Embark on a journey of indulgence with our newly
+                            introduced afternoon teas. Immerse yourself in
+                            various delectable treats, from delicate finger
+                            sandwiches to mouthwatering pastries. To book your
+                            spot for this exquisite experience, give us a call
+                            or drop by the shop. We've reserved a cosy corner
+                            just for you.
                         </p>
                     </div>
                     <div

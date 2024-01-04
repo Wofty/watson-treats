@@ -2,10 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-.active {
-    @apply bg-menu-bg-hover bg-cover bg-center bg-no-repeat text-white;
+.menu-item-active {
+    @apply bg-menu-bg-hover 
+    bg-cover 
+    bg-center 
+    bg-no-repeat 
+    text-gray-chateau 
+    dark:text-ecru-white;
 }
-
+.menu-item {
+    @apply hover:bg-menu-bg-hover 
+    hover:bg-cover 
+    hover:bg-center 
+    text-gray-chateau
+    hover:text-regent-gray 
+    dark:text-white 
+    dark:hover:text-white md:px-6;
+}
 .home-hero_custom-bg {
     background-position: 60% center;
 }
