@@ -12,7 +12,7 @@
     </head>
 
     <!-- ! Done -->
-    <body class="dark:bg-black bg-ecru-white">
+    <body class="dark:bg-black bg-ecru-white text-sans">
         <header class="">
             <nav
                 class="items-center text-center pb-10 md:pb-0 md:flex md:justify-around"
@@ -62,7 +62,7 @@
             <!-- Home Hero -->
             <section
                 id="home-hero"
-                class="flex justify-center items-center h-[50vh] bg-home-hero-bg bg-cover bg-no-repeat home-hero_custom-bg md:h-[60vh] lg:h-[70vh]"
+                class="flex justify-center items-center h-[50vh] bg-black bg-home-hero-bg bg-cover bg-no-repeat home-hero_custom-bg md:h-[60vh] lg:h-[70vh]"
             >
                 <div
                     class="flex flex-col justify-center items-center gap-4 md:mr-[20rem] lg:mr-[40rem]"
@@ -76,11 +76,12 @@
                             Watson Treats
                         </h1>
                         <p class="text-xl">Where Every Bite is a</p>
-                        <p class="text-4xl font-bold text-apricot">Treat</p>
+                        <h2 class="text-4xl font-bold text-apricot">Treat</h2>
 
                         <!-- TODO: add call to action here  -->
 
                         <a href="#home-section-1">
+                            <span class="hidden">Text to be hidden</span>
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -152,12 +153,12 @@
                         </div>
                         <div class="min-h-[15rem] py-5">
                             <h4 class="text-xl font-cursive italic pb-8">
-                                Family business
+                                Family Business
                             </h4>
                             <p class="italic">
                                 Our roots run deep as a family business,
                                 infusing every cake with not just exceptional
-                                flavors but a generational commitment to
+                                flavours but a generational commitment to
                                 creating moments of joy.
                             </p>
                         </div>
@@ -185,7 +186,7 @@
                         </div>
                         <div class="min-h-[15rem] py-5">
                             <h4 class="text-xl font-cursive italic pb-8">
-                                Artisanal Craftmanship.
+                                Artisanal Craftmanship
                             </h4>
                             <p class="italic">
                                 We take pride in our commitment to artisanal
@@ -279,8 +280,8 @@
                         Best Seller
                     </h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam, voluptatum.
+                        Indulge in our bestsellers, where each slice tells a
+                        tale of unrivaled flavor and artisanal excellence.
                     </p>
                 </div>
                 <div class="flex justify-center items-center mx-auto">
@@ -288,7 +289,7 @@
                         class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-4 gap-6"
                     >
                         <div
-                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center bg-ghost dark:bg-gray-chateau"
+                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center dark:bg-gray-chateau"
                         >
                             <img
                                 class="w-full h-full"
@@ -314,7 +315,7 @@
                         </div>
 
                         <div
-                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center bg-ghost dark:bg-gray-chateau"
+                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center dark:bg-gray-chateau"
                         >
                             <img
                                 class="w-full h-full"
@@ -340,7 +341,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center bg-ghost dark:bg-gray-chateau"
+                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center dark:bg-gray-chateau"
                         >
                             <img
                                 class="w-full h-full"
@@ -365,7 +366,7 @@
                             </div>
                         </div>
                         <div
-                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center bg-ghost dark:bg-gray-chateau"
+                            class="flex flex-col gap-6 items-center shadow-2xl rounded-2xl text-center dark:bg-gray-chateau"
                         >
                             <img
                                 class="w-full h-full"
@@ -416,14 +417,16 @@
                     <div
                         class="flex flex-col justify-center items-center text-center mx-4 gap-10 lg:max-w-[30rem] xl:max-w-[50rem]"
                     >
-                        <h4 class="text-2xl font-cursive font-bold underline">
+                        <h4
+                            class="text-3xl font-cursive font-bold text-secondary"
+                        >
                             Tea Party
                         </h4>
 
                         <p class="italic font-sans">
                             Discover delight with our new afternoon tea - where
                             elegant treats meet a cosy ambiance. Heighten
-                            moments and savor the sweetness; your sweet escape
+                            moments and savour the sweetness; your sweet escape
                             awaits in the gentle clink of fine china and the
                             subtle swirl of tea leaves steeping to perfection.
                         </p>
@@ -435,36 +438,31 @@
                     </div>
                 </div>
             </section>
+
             <section
-                class="p-4 lg:p-8 dark:text-gray-100 bg-section-bg-1 bg-cover bg-no-repeat"
+                class="p-4 lg:p-8 dark:text-ecru-white bg-section-bg-1 bg-cover bg-no-repeat mb-20"
             >
                 <div class="container mx-auto space-y-12">
                     <div class="flex flex-col overflow-hidden lg:flex-row">
                         <img
                             src="/images/shop/shop3.jpg"
-                            alt=""
-                            class="h-80 dark:bg-gray-500 aspect-video rounded-2xl"
+                            alt=" Tea Party at Watson Treats set up on a table"
+                            class="h-80 aspect-video rounded-2xl"
                         />
                         <div
-                            class="flex flex-col justify-center items-center flex-1 gap-3 p-6 shadow-2xl text-center lg:items-start lg:text-left"
+                            class="flex flex-col justify-center items-center flex-1 gap-3 p-6"
                         >
-                            <span class="text-xs uppercase dark:text-gray-400"
-                                >Join Us</span
+                            <h3
+                                class="text-3xl font-bold text-secondary font-sevillan"
                             >
-                            <h3 class="text-3xl font-bold">
-                                For a Delightful Afternoon Tea
+                                For a Unique Treat Experience
                             </h3>
                             <p class="my-6 dark:text-ecru-white">
-                                Set in the warm ambiance of our shop, it's the
+                                Step in the warm ambiance of our shop. It's the
                                 perfect way to celebrate life's little pleasures
-                                and create memorable moments.
+                                and create memorable moments with your friends
+                                and family.
                             </p>
-                            <button
-                                type="button"
-                                class="bg-secondary py-4 text-white px-6 rounded-full shadow-2xl"
-                            >
-                                <a href="/tea.html">Book your place</a>
-                            </button>
                         </div>
                     </div>
                     <div
@@ -472,47 +470,47 @@
                     >
                         <img
                             src="/images/shop/shop2.jpg"
-                            alt=""
-                            class="h-80 dark:bg-gray-500 aspect-video rounded-2xl"
+                            alt="Cake in the shop window"
+                            class="h-80 aspect-video rounded-2xl"
                         />
                         <div
-                            class="flex flex-col justify-center items-center flex-1 gap-3 p-6 shadow-2xl text-center lg:items-start lg:text-left"
+                            class="flex flex-col justify-center items-center flex-1 gap-3 p-6"
                         >
-                            <span class="text-xs uppercase dark:text-gray-400"
-                                >Join, it's free</span
+                            <h3
+                                class="text-3xl font-bold text-secondary font-sevillan"
                             >
-                            <h3 class="text-3xl font-bold">
-                                We're not reinventing the wheel
+                                For a Slice of Joy
                             </h3>
-                            <p class="my-6 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolor aliquam possimus quas,
-                                error esse quos.
+                            <p class="my-6">
+                                Our shop in Liverpool welcomes you with a
+                                delightful array of ready-made cakes, each
+                                waiting to be chosen as the centerpiece of your
+                                next celebration or as a treat to brighten your
+                                day.
                             </p>
-                            <button type="button" class="">Action</button>
                         </div>
                     </div>
-                    <div class="flex flex-col overflow-hidden lg:flex-row">
+                    <div class="flex flex-col lg:flex-row">
                         <img
                             src="/images/shop/shop1.jpg"
-                            alt=""
-                            class="h-80 dark:bg-gray-500 aspect-video rounded-2xl"
+                            alt="Cakes in the shop window"
+                            class="h-80 aspect-video rounded-2xl"
                         />
                         <div
-                            class="flex flex-col justify-center items-center flex-1 gap-3 p-6 shadow-2xl text-center lg:items-start lg:text-left"
+                            class="flex flex-col justify-center items-center flex-1 gap-3 p-6"
                         >
-                            <span class="text-xs uppercase dark:text-gray-400"
-                                >Join, it's free</span
+                            <h3
+                                class="text-3xl font-bold text-secondary font-sevillan"
                             >
-                            <h3 class="text-3xl font-bold">
-                                We're not reinventing the wheel
+                                For Green Practices and Great Taste
                             </h3>
                             <p class="my-6 dark:text-gray-400">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Dolor aliquam possimus quas,
-                                error esse quos.
+                                We're proud to integrate sustainability into our
+                                operations, from biodegradable packaging to
+                                supporting local farms. Savour our treats
+                                knowing we're mindful of our environmental
+                                footprint
                             </p>
-                            <button type="button" class="">Action</button>
                         </div>
                     </div>
                 </div>

@@ -27,17 +27,18 @@ export default {
 
       },
       backgroundImage: {
-        //menu hover
+
 
         'menu-bg-hover': "url('/shapes/menu-stroke.png')",
 
         'hero-about': "url('/images/about/hero-about-test.jpg')",
 
         'home-hero-bg': "url('/images/home/hero-bg.webp')",
-        //section bg
+
         'section-bg-1': "url('/images/bg/section_bg-1.png')",
-        //separators
+
         'separator-1': "url('/shapes/separator_02.png')",
+
         'separator-2': "url('/shapes/separator_02.png')",
       },
       screens: {
