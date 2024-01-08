@@ -13,8 +13,8 @@
             "destination": "/cakes.html"
         },
         {
-            "source": "/teas",
-            "destination": "/teas.html"
+            "source": "/tea",
+            "destination": "/tea.html"
         },
         {
             "source": "/(.*)",
