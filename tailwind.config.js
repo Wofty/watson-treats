@@ -35,6 +35,8 @@ export default {
 
         'home-hero-bg': "url('/images/home/hero-bg.webp')",
 
+        'home-sec1-bg': "url('/shapes/home-section-1_bg-card.png')",
+
         'section-bg-1': "url('/images/bg/section_bg-1.png')",
 
         'separator-1': "url('/shapes/separator_02.png')",
