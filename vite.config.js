@@ -10,7 +10,7 @@ export default defineConfig({
         about: '/about.html',
         catering: '/catering.html',
         cakes: '/cakes.html',
-        teas: '/teas.html',
+        teas: '/tea.html',
 
       }
     }
