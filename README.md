@@ -1,4 +1,4 @@
-# watson-treats
+# Watson-treats
 
 ## Description
 
@@ -10,4 +10,4 @@ The project is for a University assignment. Staffordshire University - Web Devel
 -   HTML
 -   Tailwind CSS
 -   Git
--   GitHub
+
